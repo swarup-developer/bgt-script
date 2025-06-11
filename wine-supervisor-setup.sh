@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Version: 1.0.0
 SCRIPT_VERSION="1.0.1"
 SCRIPT_NAME="wine-supervisor-setup.sh"
 SCRIPT_URL="https://raw.githubusercontent.com/swarup-developer/bgt-script/refs/heads/main/wine-supervisor-setup.sh?token=GHSAT0AAAAAADCENM3Z5IDXNTW4TZP5B7JM2CEMYSQ"
@@ -182,7 +181,7 @@ supervisor_menu() {
     done
 }
 
-# MAIN EXECUTION
+# Execute script logic
 check_for_update
 setup_wine
 install_supervisor
